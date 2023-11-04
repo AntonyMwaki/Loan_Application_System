@@ -21,7 +21,7 @@ public class MysqlDataAccess implements DataAccess {
         try {
             Connection connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/mwananchibank",
-                    "ntwiga",
+                    "Antony",
                     "secret@101");
             return connection;
 
